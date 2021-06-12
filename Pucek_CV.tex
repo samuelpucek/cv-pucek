@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Samuel Pucek} % Your name
+\address{Simunkova 1608/19, Prague 8, Czech Republic} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{+420 770 189 639 \\ \href{mailto:samuel.pucek@gmail.com}{samuel.pucek@gmail.com} \\ GitHub: \href{https://github.com/samuelpucek}{samuelpucek} }
+
+ % Your phone number and email
+
+\begin{document}
+
+%--------------------------------------------------------------------------------
+%    Carrier Objective
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Carrier Objective}
+I am a friendly guy with a passion for technology. I greatly welcome new challenges and opportunities to learn new things. In my tasks I am systematic and persistent.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+ 
+    \begin{rSubsection}{Avast Software}{\em Prague, Czech Republic}{Junior Data Scientist}{Jan 2021 - Present}
+        \item Experimentation Platform
+        \item Personalization
+        \item Data Quality
+        
+        I focus exclusively on further development of Experimentation Platform, mainly on automatization of Data Quality Checks. Our next goal is to provide deep-dive analyses to answer questions related to personalization and further evangelization of experimentation mindset across the organization.
+        
+    \end{rSubsection}
+        
+    \begin{rSubsection}{Avast Software}{\em Prague, Czech Republic}{Junior Data Analyst}{Sep 2019 - Dec 2020}
+        \item A/B testing
+        \item Experimentation Platform
+        \item Ad-hoc analyses
+        \item Data Engineering
+        
+        My responsibility was to maintain and update data pipelines, create dozens of ad-hoc analyses (Jupyter Notebooks) to answer business-related questions, and to co-work on development of Avast's Experimentation Platform - the cutting-edge tool for automatic evaluation of experiments (A/B tests).
+        
+        My main contribution to Experimentation Platform was to design a statistical engine for evaluating experiments, which consists of sequential evaluation, multiple comparison problem, delta methods etc. The solution has been open-sourced in fall 2020 - feel free to check Avast GitHub repository \href{https://github.com/avast/ep-stats}{\texttt{ep-stats}}. From \texttt{ep-stats} we created an independent Python package which can be found in \href{https://pypi.org/project/ep-stats/}{PyPi}.
+        
+        In \texttt{ep-stats} we mainly focused on computational complexity. Using \texttt{numpy} we vectorized many math operations. We back-upped all features using unit testing, including statistical features stated above.
+    \end{rSubsection}
+        
+    \begin{rSubsection}{O2 Czech Republic}{\em Prague, Czech Republic}{Software tester (part-time)}{Nov 2017 - Sep 2019}
+        \item Integration and regression testing of company global CRM system during its development
+        \item SQL, HP Quality Center, SAP, SoapUI, Confluence
+    \end{rSubsection}
+    
+    \begin{rSubsection}{O2 Czech Republic}{\em Prague, Czech Republic}{Internship program (part-time)}{Nov 2017 - Sep 2019}        
+        \item IT reporting in SAP Solution Manager
+    \end{rSubsection}
+\end{rSection}
+    
+\newpage
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+    \begin{rSection}{Technical Strengths}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Statistics 		& R, Python \\
+    Programming		& C\#, Python (Object-oriented programming) \\
+    Software \& Tools & SQL, Git, \LaTeX \\
+    Optimization	& GAMS, MATLAB
+    \end{tabular}
+    \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+    {\bf Charles University in Prague, Faculty of Mathematics and Physics} \hfill {\em Sep 2017 - Sep 2019} 
+    \\ Master`s degree in Probability, Mathematical Statistics and Econometrics\\
+    \\{\bf Charles University in Prague, Faculty of Mathematics and Physics} \hfill {\em Sep 2014 - Sep 2017} 
+    \\ Bachelor`s degree in General Mathematics
+    \end{rSection}
+    
+%----------------------------------------------------------------------------------------
+%	THESES SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Theses}
+    Master thesis: {\bf Risk aversion in portfolio efficiency} \hfill {\em Sep 2019}\\
+    Bachelor thesis: {\bf Scheduling optimization problems in education} \hfill {\em Sep 2017}
+    \end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	ANALYTICAL SKILLS
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Analytical skills}
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Statistics 		& Regression analysis, Econometrics, Time series, Stochastic Processes\\
+% Machine learning & Random trees, Random forest, Machine and deep learning (toy examples)\\
+% Programming		& Object-oriented programming\\
+% Risk theory		& Risk measures, Data envelopment analysis (DEA)\\
+% Optimization	& Scheduling, Integer programming 
+% \end{tabular}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Languages}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+English	& fluent (spoken and written)\\
+German	& basic (passive)\\
+Slovak	& mother tongue
+\end{tabular}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+% {\bf Mini kiwi.com} \hfill {\em Jun 2019}\\
+% I took part on Python Weekend in Bratislava organized by kiwi.com. General topic was to create a~web application for searching ground connections (buses and trains). User fill web application parameters, choose source and destination city and date. The program will search all available connections. Offered journeys may contain multiple operators, e.g. FlixBus, České dráhy, RegioJet,~... We were dealing with both front and back end. We literally started on a greenfield. Schedules were gained from operators web pages via various requests and apis. Redis was used for optimization. All data were stored in SQL database for later re-usage. The whole project was coded in Python 3.6.\\
+{\bf Discrete simulation of music festival} \hfill {\em Feb 2019}\\
+The simulation was coded in C\#, with focus on user-friendly interface.\\
+User can choose number of visitors, service speed (e.g. beer, hot-dog, toilets), and couple of other parameters. Program itself randomly creates visitors with various preferences and their own music schedule. Then the simulation starts. Randomness is also included in decisions during the simulation. The output is the overall satisfaction of visitors and detailed history of all visitors.\\
+\\{\bf Modeling mortgage rates} \hfill {\em Oct 2018 - Jan 2019}\\
+This project aimed at developing a framework for predicting mortgage rates for the purpose of actuarial cash flow models implemented in insurance company. We suggested multiple approaches, i.e. vector autoregression, simple regression. Bootstrap algorithm was used for generating scenarios. In addition, we dealt with client specific data of the insurance company. We used R and EViews for regression. Bootstrap and simulations were made in MATLAB. Client specific data were analysed in R.\\
+\\{\bf Primary school timetable} \hfill {\em Aug 2018}\\
+I used the results obtained in my Bachelor thesis and implemented them in real-life problem. Using GAMS I solved large linear optimization problem, which covered all requirements and conditions. The output was optimal timetable for the upcoming academic year. R was used for dealing with data before, and after the optimization.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HOBBY SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Individual interests}
+Running (marathon 3:15:41, half-marathon 1:28:20), hiking, cycling
+\end{rSection}
+
+\end{document}
