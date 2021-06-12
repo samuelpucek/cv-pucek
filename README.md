@@ -1,2 +1,3 @@
-# cv-pucek
-Repository contains my CV.
+# Curriculum Vitae
+
+In this repo I version my CV.
