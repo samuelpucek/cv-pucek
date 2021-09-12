@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  26 MAY 2021 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  12 SEP 2021 09:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.tex"
-(/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.tex
+**"/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.tex"
+(/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
+L3 programming layer <2021-02-18> (/Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -174,7 +174,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box49
-) (/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux)
+) (/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux)
 \openout1 = `Pucek_CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -208,7 +208,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out) (/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out)
+ (/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out) (/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out)
 \@outlinefile=\write3
 \openout3 = `Pucek_CV.out'.
 
@@ -261,34 +261,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 100--104
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--152
+Underfull \hbox (badness 10000) in paragraph at lines 144--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--152
+Underfull \hbox (badness 10000) in paragraph at lines 144--151
 
  []
 
-[2] (/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux)
+[2] (/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux)
 Package rerunfilecheck Info: File `Pucek_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  7890 strings out of 478994
- 117743 string characters out of 5858184
+ 117578 string characters out of 5858184
  424842 words of memory out of 5000000
  25307 multiletter control sequences out of 15000+600000
  407597 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,88p,764b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,9n,88p,753b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.pdf" (2 pages, 99446 bytes).
+Output written on "/Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.pdf" (2 pages, 99432 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

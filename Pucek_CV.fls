@@ -1,20 +1,20 @@
-PWD /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek
+PWD /Users/samuel.pucek/Local Documents/cv-pucek
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.tex
-OUTPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.log
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.tex
+OUTPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.log
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/resume.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -399,10 +399,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux
-OUTPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux
+OUTPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -440,18 +440,18 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestri
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-OUTPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-OUTPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.pdf
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+OUTPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+OUTPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -466,9 +466,9 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.aux
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
-INPUT /Users/samuel.pucek/Local Documents/Interviews/CV_Pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.aux
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
+INPUT /Users/samuel.pucek/Local Documents/cv-pucek/Pucek_CV.out
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
