@@ -48,29 +48,33 @@ I’m friendly and open-minded person, with a passion for technology. I greatly 
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Work Experience}
  
-    \begin{rSubsection}{Avast Software}{\em Prague, Czech Republic}{Data Scientist}{Jan 2022 - Present}
-        \item Retention \& Loyalty
+    \begin{rSubsection}{Gen (formerly Avast and NortonLifeLock)}{\em Prague, Czech Republic}{Principal Data Scientist}{Feb 2023 - Present}
+        \item Experimentation and A/B testing
+        
+        I improve experimentation, specifically implement new metrics tailored to the business, model customer LTV and support business with various pre-experiment and post-experiment calculations (Jupyter Notebooks). I prototype variance reduction methods, i.e., stratification and CUPED.
+
+    \end{rSubsection}
+
+    \begin{rSubsection}{Avast}{\em Prague, Czech Republic}{Data Scientist}{Jan 2022 - Jan 2023}
         \item Architecture and development of ML pipelines
         
-        I work on architecture and development of Machine Learning pipelines which support retention strategy and personalisation in Avast. I'm responsible for the quality of code delivered by third parties, end-to-end pipelines architecture and development, communication with other internal and external teams, and support of other colleagues. Occasionally I do ad-hoc analyses in Jupyter Notebook.
+        I worked on architecture and development of Machine Learning pipelines which supported retention strategy and personalisation in Avast - Dynamic Discounting. I was responsible for end-to-end pipelines architecture and development, the quality of code delivered by third parties, communication with other internal and external teams, and support of other colleagues, including onboarding.
+        
+        In the Dynamic Discounting project were used XGBoost models followed by Reinforcement Learning model. The pipeline was scheduled daily, predictions (individual discounts) were then passed to other internal systems.
 
     \end{rSubsection}
 
-    \begin{rSubsection}{Avast Software}{\em Prague, Czech Republic}{Junior Data Scientist}{Jan 2021 - Dec 2021}
+    \begin{rSubsection}{Avast}{\em Prague, Czech Republic}{Junior Data Scientist}{Sep 2019 - Dec 2021}
         \item Avast's Experimentation Platform
         
-        I focused on further development of the Avast's Experimentation Platform; mainly trustworthiness, data quality, and sensitivity improvements in statistical evaluation. Next I provided various deep-dive analyses and supported further evangelisation of experimentation mindset across the organisation.
-        
-    \end{rSubsection}
-        
-    \begin{rSubsection}{Avast Software}{\em Prague, Czech Republic}{Junior Data Analyst}{Sep 2019 - Dec 2020}
-        \item Avast's Experimentation Platform
-        
-        My responsibility was to maintain and update data pipelines, create dozens of ad-hoc analyses (Jupyter Notebooks) to answer business-related questions, and to co-work on development of Avast's Experimentation Platform - the cutting-edge tool for automatic evaluation of experiments (A/B tests).
-        
-        My main contribution to Experimentation Platform was to design a statistical engine for evaluating experiments, which consists of sequential evaluation, multiple comparison problem, delta method etc. The solution has been open-sourced in fall 2020 - feel free to check Avast GitHub repository \href{https://github.com/avast/ep-stats}{\texttt{ep-stats}}. From \texttt{ep-stats} we created an independent Python package which can be found in \href{https://pypi.org/project/ep-stats/}{PyPi}.
+        In Avast, we developed internally the Experimentation Platform, self-service tool for A/B testing. My main contribution to Exp. Platform was to design a statistical engine for evaluating experiments, which consisted of sequential evaluation, multiple comparison correction, delta method etc.
+        The solution was open-sourced in fall 2020, check GitHub repo \href{https://github.com/avast/ep-stats}{\texttt{ep-stats}}. The corresponding Python package can be found in \href{https://pypi.org/project/ep-stats/}{PyPi}.
         
         In \texttt{ep-stats} we mainly focused on computational complexity. Using \texttt{numpy} we vectorized many math operations. We back-upped all features using unit testing, including statistical features stated above.
+        Next, I provided various deep-dive analyses (Jupyter Notebooks) to answer business-related questions, maintained and updated a few legacy data pipelines.
+
+        \textit{After one year since the Experimentation Platform started we served more than 100 experiments per month. The experimentation mindset grew enormously - all ideas in the sales and marketing were A/B tested before being full scaled. EP provided evaluation of the experiments using a unified set of business metrics. The goal was to further evangelise experimentation mindset into engineering and product development.}
+        
     \end{rSubsection}
         
     \begin{rSubsection}{O2 Czech Republic}{\em Prague, Czech Republic}{Internship and QA Tester (part-time)}{Aug 2016 - Aug 2019}
@@ -80,14 +84,14 @@ I’m friendly and open-minded person, with a passion for technology. I greatly 
         
 \end{rSection}
     
-\newpage
+% \newpage
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Technical Strengths}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
     Programming		& Python (Object-oriented programming, Pandas, NumPy, Plotly, scikit-learn) \\
-%    Statistics 			& R, MATLAB, GAMS \\
+%    Statistics 			& R, MATLAB \\
     Software \& Tools 		& SQL, Git, \LaTeX \\
     \end{tabular}
     \end{rSection}
@@ -136,7 +140,10 @@ Slovak	& Native
 %--------------------------------------------------------------------------------
 %    Projects And Seminars
 %-----------------------------------------------------------------------------------------------
-% \begin{rSection}{Projects}
+\begin{rSection}{Projects}
+{\bf Blackjack with RL agent} \hfill {\em since Dec 2022}\\
+I coded Blackjack game in Python with standard actions, i.e. hit, stand, double down, split, surrender and insurance. The goal is to add Reinforcement Learning agent on top of the game. The agent should learn how to play Blackjack on its own, and wisely use strategy when the game is "hot".\\
+See the \href{https://github.com/samuelpucek/blackjack}{\texttt{blackjack}} repo in my personal GitHub.
 % {\bf Mini kiwi.com} \hfill {\em Jun 2019}\\
 % I took part on Python Weekend in Bratislava organized by kiwi.com. General topic was to create a~web application for searching ground connections (buses and trains). User fill web application parameters, choose source and destination city and date. The program will search all available connections. Offered journeys may contain multiple operators, e.g. FlixBus, České dráhy, RegioJet,~... We were dealing with both front and back end. We literally started on a greenfield. Schedules were gained from operators web pages via various requests and apis. Redis was used for optimization. All data were stored in SQL database for later re-usage. The whole project was coded in Python 3.6.\\
 % {\bf Discrete simulation of music festival} \hfill {\em Feb 2019}\\
@@ -146,13 +153,13 @@ Slovak	& Native
 % This project aimed at developing a framework for predicting mortgage rates for the purpose of actuarial cash flow models implemented in insurance company. We suggested multiple approaches, i.e. vector autoregression, simple regression. Bootstrap algorithm was used for generating scenarios. In addition, we dealt with client specific data of the insurance company. We used R and EViews for regression. Bootstrap and simulations were made in MATLAB. Client specific data were analysed in R.\\
 % \\{\bf Primary school timetable} \hfill {\em Aug 2018}\\
 % I used the results obtained in my Bachelor thesis and implemented them in real-life problem. Using GAMS I solved large linear optimization problem, which covered all requirements and conditions. The output was optimal timetable for the upcoming academic year. R was used for dealing with data before, and after the optimization.
-% \end{rSection}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	HOBBY SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Individual interests}
-Running (marathon 3:15:41, half-marathon 1:26:02), hiking, cycling
+Running (marathon 3:15:41, half-marathon 1:23:51), hiking, cycling.
 \end{rSection}
 
 \end{document}
