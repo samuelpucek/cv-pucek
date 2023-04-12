@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Homebrew) (preloaded format=xelatex 2022.10.3)  2 APR 2023 10:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Homebrew) (preloaded format=xelatex 2022.10.3)  12 APR 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,12 +272,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 37.
 [1
 
-]
-Overfull \hbox (7.09491pt too wide) in paragraph at lines 92--97
-[][] 
- []
-
-[2] (./Pucek_CV.aux)
+] [2] (./Pucek_CV.aux)
 Package rerunfilecheck Info: File `Pucek_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -288,6 +283,6 @@ Here is how much of TeX's memory you used:
  29169 multiletter control sequences out of 15000+600000
  472414 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,9n,76p,703b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,9n,76p,703b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Pucek_CV.xdv (2 pages, 41552 bytes).
+Output written on Pucek_CV.xdv (2 pages, 43088 bytes).
