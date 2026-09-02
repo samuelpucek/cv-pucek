@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1784973308.95226 "/home/samuel/Draslovka/cv-pucek/Pucek_CV.tex" "Pucek_CV.pdf" "Pucek_CV" 1784973309.31454 0
+["pdflatex"] 1788376264.74291 "/home/samuel/Draslovka/cv-pucek/Pucek_CV.tex" "Pucek_CV.pdf" "Pucek_CV" 1788376265.10377 0
   "/etc/texmf/web2c/texmf.cnf" 1784972230.98711 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/samuel/Draslovka/cv-pucek/Pucek_CV.tex" 1784973291.43381 7034 5ca386a0d7bbb7fb7a01a03a1c5f5de8 ""
+  "/home/samuel/Draslovka/cv-pucek/Pucek_CV.tex" 1788376264.8448 7346 2f27105e89c1583269690cd53623254c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc" 1679344195 2969 d0ec9694be18bdfa11e2a0f61a62c0cc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc" 1679344195 2945 f4c9aa1a657d71d9b432a32e633f5416 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -83,9 +83,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1784972541.24516 5312232 f3296911be9cc021788f3f879cf0a47d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1784972253 6800787 35aca7c365d7ac8ecb16556b45003f3a ""
-  "Pucek_CV.aux" 1784973309.26378 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "Pucek_CV.out" 1784973309.1923 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Pucek_CV.tex" 1784973291.43381 7034 5ca386a0d7bbb7fb7a01a03a1c5f5de8 ""
+  "Pucek_CV.aux" 1788376265.06029 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "Pucek_CV.out" 1788376264.98859 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Pucek_CV.tex" 1788376264.8448 7346 2f27105e89c1583269690cd53623254c ""
   "resume.cls" 1784970998.1386 6398 383b89f41f72d310ae9916f4f1046f63 ""
   (generated)
   "Pucek_CV.aux"
